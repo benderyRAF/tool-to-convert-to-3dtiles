@@ -1,0 +1,1 @@
+_3dtile.exe -f osgb -i C:\Users\SHONDIM\Desktop\Cesium\3d-offline-map -o C:\Users\SHONDIM\Desktop\Cesium\3d-offline-map
