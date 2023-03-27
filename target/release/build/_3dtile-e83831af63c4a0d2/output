@@ -1,0 +1,256 @@
+TARGET = Some("x86_64-pc-windows-msvc")
+OPT_LEVEL = Some("3")
+HOST = Some("x86_64-pc-windows-msvc")
+CXX_x86_64-pc-windows-msvc = None
+CXX_x86_64_pc_windows_msvc = None
+HOST_CXX = None
+CXX = None
+CXXFLAGS_x86_64-pc-windows-msvc = None
+CXXFLAGS_x86_64_pc_windows_msvc = None
+HOST_CXXFLAGS = None
+CXXFLAGS = None
+CRATE_CC_NO_DEFAULTS = None
+CARGO_CFG_TARGET_FEATURE = Some("fxsr,sse,sse2")
+DEBUG = Some("false")
+running: "C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.28.29333\\bin\\HostX64\\x64\\cl.exe" "-nologo" "-MD" "-O2" "-Brepro" "-I" "./src" "-I" "./src/osg" "-Zi" "-Gm" "-INCREMENTAL" "-DWIN32" "-D_WINDOWS" "-FoC:\\Users\\SHONDIM\\Desktop\\ToolFor3dTiles\\3dtiles\\target\\release\\build\\_3dtile-e83831af63c4a0d2\\out\\./src/tileset.o" "-c" "./src/tileset.cpp"
+cargo:warning=cl : Command line warning D9035 : option 'Gm' has been deprecated and will be removed in a future release
+tileset.cpp
+exit code: 0
+running: "C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.28.29333\\bin\\HostX64\\x64\\cl.exe" "-nologo" "-MD" "-O2" "-Brepro" "-I" "./src" "-I" "./src/osg" "-Zi" "-Gm" "-INCREMENTAL" "-DWIN32" "-D_WINDOWS" "-FoC:\\Users\\SHONDIM\\Desktop\\ToolFor3dTiles\\3dtiles\\target\\release\\build\\_3dtile-e83831af63c4a0d2\\out\\./src/shp23dtile.o" "-c" "./src/shp23dtile.cpp"
+cargo:warning=cl : Command line warning D9035 : option 'Gm' has been deprecated and will be removed in a future release
+shp23dtile.cpp
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\istream(591): warning C4530: C++ exception handler used, but unwind semantics are not enabled. Specify /EHsc
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\istream(583): note: while compiling class template member function 'std::basic_istream<char,std::char_traits<char>> &std::basic_istream<char,std::char_traits<char>>::unget(void)'
+C:\Users\SHONDIM\Desktop\ToolFor3dTiles\3dtiles\src\json.hpp(1462): note: see reference to function template instantiation 'std::basic_istream<char,std::char_traits<char>> &std::basic_istream<char,std::char_traits<char>>::unget(void)' being compiled
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\istream(691): note: see reference to class template instantiation 'std::basic_istream<char,std::char_traits<char>>' being compiled
+exit code: 0
+running: "C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.28.29333\\bin\\HostX64\\x64\\cl.exe" "-nologo" "-MD" "-O2" "-Brepro" "-I" "./src" "-I" "./src/osg" "-Zi" "-Gm" "-INCREMENTAL" "-DWIN32" "-D_WINDOWS" "-FoC:\\Users\\SHONDIM\\Desktop\\ToolFor3dTiles\\3dtiles\\target\\release\\build\\_3dtile-e83831af63c4a0d2\\out\\./src/osgb23dtile.o" "-c" "./src/osgb23dtile.cpp"
+cargo:warning=cl : Command line warning D9035 : option 'Gm' has been deprecated and will be removed in a future release
+osgb23dtile.cpp
+./src/osgb23dtile.cpp(176): warning C4530: C++ exception handler used, but unwind semantics are not enabled. Specify /EHsc
+exit code: 0
+running: "C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.28.29333\\bin\\HostX64\\x64\\cl.exe" "-nologo" "-MD" "-O2" "-Brepro" "-I" "./src" "-I" "./src/osg" "-Zi" "-Gm" "-INCREMENTAL" "-DWIN32" "-D_WINDOWS" "-FoC:\\Users\\SHONDIM\\Desktop\\ToolFor3dTiles\\3dtiles\\target\\release\\build\\_3dtile-e83831af63c4a0d2\\out\\./src/dxt_img.o" "-c" "./src/dxt_img.cpp"
+cargo:warning=cl : Command line warning D9035 : option 'Gm' has been deprecated and will be removed in a future release
+dxt_img.cpp
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\vector(1198): warning C4530: C++ exception handler used, but unwind semantics are not enabled. Specify /EHsc
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\vector(1227): note: see reference to function template instantiation 'void std::vector<unsigned char,std::allocator<unsigned char>>::_Resize_reallocate<_Ty2>(const unsigned __int64,const _Ty2 &)' being compiled
+        with
+        [
+            _Ty2=std::_Value_init_tag
+        ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\vector(1227): note: see reference to function template instantiation 'void std::vector<unsigned char,std::allocator<unsigned char>>::_Resize_reallocate<_Ty2>(const unsigned __int64,const _Ty2 &)' being compiled
+        with
+        [
+            _Ty2=std::_Value_init_tag
+        ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\vector(1242): note: see reference to function template instantiation 'void std::vector<unsigned char,std::allocator<unsigned char>>::_Resize<std::_Value_init_tag>(const unsigned __int64,const _Ty2 &)' being compiled
+        with
+        [
+            _Ty2=std::_Value_init_tag
+        ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\vector(1242): note: see reference to function template instantiation 'void std::vector<unsigned char,std::allocator<unsigned char>>::_Resize<std::_Value_init_tag>(const unsigned __int64,const _Ty2 &)' being compiled
+        with
+        [
+            _Ty2=std::_Value_init_tag
+        ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\vector(1240): note: while compiling class template member function 'void std::vector<unsigned char,std::allocator<unsigned char>>::resize(const unsigned __int64)'
+./src/dxt_img.cpp(85): note: see reference to function template instantiation 'void std::vector<unsigned char,std::allocator<unsigned char>>::resize(const unsigned __int64)' being compiled
+C:\Users\SHONDIM\Desktop\ToolFor3dTiles\3dtiles\src\osg\osg/Shader(74): note: see reference to class template instantiation 'std::vector<unsigned char,std::allocator<unsigned char>>' being compiled
+exit code: 0
+AR_x86_64-pc-windows-msvc = None
+AR_x86_64_pc_windows_msvc = None
+HOST_AR = None
+AR = None
+running: "C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.28.29333\\bin\\HostX64\\x64\\lib.exe" "-out:C:\\Users\\SHONDIM\\Desktop\\ToolFor3dTiles\\3dtiles\\target\\release\\build\\_3dtile-e83831af63c4a0d2\\out\\lib_3dtile.a" "-nologo" "C:\\Users\\SHONDIM\\Desktop\\ToolFor3dTiles\\3dtiles\\target\\release\\build\\_3dtile-e83831af63c4a0d2\\out\\./src/tileset.o" "C:\\Users\\SHONDIM\\Desktop\\ToolFor3dTiles\\3dtiles\\target\\release\\build\\_3dtile-e83831af63c4a0d2\\out\\./src/shp23dtile.o" "C:\\Users\\SHONDIM\\Desktop\\ToolFor3dTiles\\3dtiles\\target\\release\\build\\_3dtile-e83831af63c4a0d2\\out\\./src/osgb23dtile.o" "C:\\Users\\SHONDIM\\Desktop\\ToolFor3dTiles\\3dtiles\\target\\release\\build\\_3dtile-e83831af63c4a0d2\\out\\./src/dxt_img.o"
+exit code: 0
+cargo:rustc-link-lib=static=_3dtile
+cargo:rustc-link-search=native=C:\Users\SHONDIM\Desktop\ToolFor3dTiles\3dtiles\target\release\build\_3dtile-e83831af63c4a0d2\out
+CXXSTDLIB_x86_64-pc-windows-msvc = None
+CXXSTDLIB_x86_64_pc_windows_msvc = None
+HOST_CXXSTDLIB = None
+CXXSTDLIB = None
+cargo:rustc-link-search=native=./lib
+cargo:rustc-link-lib=gdal_i
+cargo:rustc-link-lib=OpenThreads
+cargo:rustc-link-lib=osg
+cargo:rustc-link-lib=osgDB
+cargo:rustc-link-lib=osgUtil
+cargo:rustc-link-lib=osgViewer
+.\bin\gdal201.dll
+.\bin\libpng.dll
+.\bin\osg130-osg.dll
+.\bin\osg130-osgDB.dll
+.\bin\osg130-osgUtil.dll
+.\bin\ot20-OpenThreads.dll
+.\bin\proj.dll
+.\bin\zlib.dll
+.\bin\gdal_data\compdcs.csv
+.\bin\gdal_data\coordinate_axis.csv
+.\bin\gdal_data\cubewerx_extra.wkt
+.\bin\gdal_data\datum_shift.csv
+.\bin\gdal_data\default.rsc
+.\bin\gdal_data\ecw_cs.wkt
+.\bin\gdal_data\ellipsoid.csv
+.\bin\gdal_data\epsg.wkt
+.\bin\gdal_data\esri_extra.wkt
+.\bin\gdal_data\esri_StatePlane_extra.wkt
+.\bin\gdal_data\esri_Wisconsin_extra.wkt
+.\bin\gdal_data\gcs.csv
+.\bin\gdal_data\gcs.override.csv
+.\bin\gdal_data\gdalicon.png
+.\bin\gdal_data\GDALLogoBW.svg
+.\bin\gdal_data\GDALLogoColor.svg
+.\bin\gdal_data\GDALLogoGS.svg
+.\bin\gdal_data\gdalvrt.xsd
+.\bin\gdal_data\gdal_datum.csv
+.\bin\gdal_data\geoccs.csv
+.\bin\gdal_data\gmlasconf.xml
+.\bin\gdal_data\gmlasconf.xsd
+.\bin\gdal_data\gml_registry.xml
+.\bin\gdal_data\gt_datum.csv
+.\bin\gdal_data\gt_ellips.csv
+.\bin\gdal_data\header.dxf
+.\bin\gdal_data\inspire_cp_BasicPropertyUnit.gfs
+.\bin\gdal_data\inspire_cp_CadastralBoundary.gfs
+.\bin\gdal_data\inspire_cp_CadastralParcel.gfs
+.\bin\gdal_data\inspire_cp_CadastralZoning.gfs
+.\bin\gdal_data\jpfgdgml_AdmArea.gfs
+.\bin\gdal_data\jpfgdgml_AdmBdry.gfs
+.\bin\gdal_data\jpfgdgml_AdmPt.gfs
+.\bin\gdal_data\jpfgdgml_BldA.gfs
+.\bin\gdal_data\jpfgdgml_BldL.gfs
+.\bin\gdal_data\jpfgdgml_Cntr.gfs
+.\bin\gdal_data\jpfgdgml_CommBdry.gfs
+.\bin\gdal_data\jpfgdgml_CommPt.gfs
+.\bin\gdal_data\jpfgdgml_Cstline.gfs
+.\bin\gdal_data\jpfgdgml_ElevPt.gfs
+.\bin\gdal_data\jpfgdgml_GCP.gfs
+.\bin\gdal_data\jpfgdgml_LeveeEdge.gfs
+.\bin\gdal_data\jpfgdgml_RailCL.gfs
+.\bin\gdal_data\jpfgdgml_RdArea.gfs
+.\bin\gdal_data\jpfgdgml_RdASL.gfs
+.\bin\gdal_data\jpfgdgml_RdCompt.gfs
+.\bin\gdal_data\jpfgdgml_RdEdg.gfs
+.\bin\gdal_data\jpfgdgml_RdMgtBdry.gfs
+.\bin\gdal_data\jpfgdgml_RdSgmtA.gfs
+.\bin\gdal_data\jpfgdgml_RvrMgtBdry.gfs
+.\bin\gdal_data\jpfgdgml_SBAPt.gfs
+.\bin\gdal_data\jpfgdgml_SBArea.gfs
+.\bin\gdal_data\jpfgdgml_SBBdry.gfs
+.\bin\gdal_data\jpfgdgml_WA.gfs
+.\bin\gdal_data\jpfgdgml_WL.gfs
+.\bin\gdal_data\jpfgdgml_WStrA.gfs
+.\bin\gdal_data\jpfgdgml_WStrL.gfs
+.\bin\gdal_data\netcdf_config.xsd
+.\bin\gdal_data\nitf_spec.xml
+.\bin\gdal_data\nitf_spec.xsd
+.\bin\gdal_data\ogrvrt.xsd
+.\bin\gdal_data\osmconf.ini
+.\bin\gdal_data\ozi_datum.csv
+.\bin\gdal_data\ozi_ellips.csv
+.\bin\gdal_data\pci_datum.txt
+.\bin\gdal_data\pci_ellips.txt
+.\bin\gdal_data\pcs.csv
+.\bin\gdal_data\pcs.override.csv
+.\bin\gdal_data\plscenesconf.json
+.\bin\gdal_data\prime_meridian.csv
+.\bin\gdal_data\projop_wparm.csv
+.\bin\gdal_data\ruian_vf_ob_v1.gfs
+.\bin\gdal_data\ruian_vf_st_uvoh_v1.gfs
+.\bin\gdal_data\ruian_vf_st_v1.gfs
+.\bin\gdal_data\ruian_vf_v1.gfs
+.\bin\gdal_data\s57agencies.csv
+.\bin\gdal_data\s57attributes.csv
+.\bin\gdal_data\s57expectedinput.csv
+.\bin\gdal_data\s57objectclasses.csv
+.\bin\gdal_data\seed_2d.dgn
+.\bin\gdal_data\seed_3d.dgn
+.\bin\gdal_data\stateplane.csv
+.\bin\gdal_data\trailer.dxf
+.\bin\gdal_data\unit_of_measure.csv
+.\bin\gdal_data\vdv452.xml
+.\bin\gdal_data\vdv452.xsd
+.\bin\gdal_data\vertcs.csv
+.\bin\gdal_data\vertcs.override.csv
+.\bin\osgPlugins-3.4.0\osgdb_3dc.dll
+.\bin\osgPlugins-3.4.0\osgdb_3ds.dll
+.\bin\osgPlugins-3.4.0\osgdb_ac.dll
+.\bin\osgPlugins-3.4.0\osgdb_bmp.dll
+.\bin\osgPlugins-3.4.0\osgdb_bsp.dll
+.\bin\osgPlugins-3.4.0\osgdb_bvh.dll
+.\bin\osgPlugins-3.4.0\osgdb_cfg.dll
+.\bin\osgPlugins-3.4.0\osgdb_dds.dll
+.\bin\osgPlugins-3.4.0\osgdb_deprecated_osg.dll
+.\bin\osgPlugins-3.4.0\osgdb_deprecated_osganimation.dll
+.\bin\osgPlugins-3.4.0\osgdb_deprecated_osgfx.dll
+.\bin\osgPlugins-3.4.0\osgdb_deprecated_osgparticle.dll
+.\bin\osgPlugins-3.4.0\osgdb_deprecated_osgshadow.dll
+.\bin\osgPlugins-3.4.0\osgdb_deprecated_osgsim.dll
+.\bin\osgPlugins-3.4.0\osgdb_deprecated_osgterrain.dll
+.\bin\osgPlugins-3.4.0\osgdb_deprecated_osgtext.dll
+.\bin\osgPlugins-3.4.0\osgdb_deprecated_osgviewer.dll
+.\bin\osgPlugins-3.4.0\osgdb_deprecated_osgvolume.dll
+.\bin\osgPlugins-3.4.0\osgdb_deprecated_osgwidget.dll
+.\bin\osgPlugins-3.4.0\osgdb_dot.dll
+.\bin\osgPlugins-3.4.0\osgdb_dw.dll
+.\bin\osgPlugins-3.4.0\osgdb_dxf.dll
+.\bin\osgPlugins-3.4.0\osgdb_gles.dll
+.\bin\osgPlugins-3.4.0\osgdb_glsl.dll
+.\bin\osgPlugins-3.4.0\osgdb_hdr.dll
+.\bin\osgPlugins-3.4.0\osgdb_ive.dll
+.\bin\osgPlugins-3.4.0\osgdb_jpeg.dll
+.\bin\osgPlugins-3.4.0\osgdb_ktx.dll
+.\bin\osgPlugins-3.4.0\osgdb_logo.dll
+.\bin\osgPlugins-3.4.0\osgdb_lua.dll
+.\bin\osgPlugins-3.4.0\osgdb_lwo.dll
+.\bin\osgPlugins-3.4.0\osgdb_lws.dll
+.\bin\osgPlugins-3.4.0\osgdb_md2.dll
+.\bin\osgPlugins-3.4.0\osgdb_mdl.dll
+.\bin\osgPlugins-3.4.0\osgdb_normals.dll
+.\bin\osgPlugins-3.4.0\osgdb_obj.dll
+.\bin\osgPlugins-3.4.0\osgdb_openflight.dll
+.\bin\osgPlugins-3.4.0\osgdb_osc.dll
+.\bin\osgPlugins-3.4.0\osgdb_osg.dll
+.\bin\osgPlugins-3.4.0\osgdb_osga.dll
+.\bin\osgPlugins-3.4.0\osgdb_osgjs.dll
+.\bin\osgPlugins-3.4.0\osgdb_osgshadow.dll
+.\bin\osgPlugins-3.4.0\osgdb_osgterrain.dll
+.\bin\osgPlugins-3.4.0\osgdb_osgtgz.dll
+.\bin\osgPlugins-3.4.0\osgdb_osgviewer.dll
+.\bin\osgPlugins-3.4.0\osgdb_p3d.dll
+.\bin\osgPlugins-3.4.0\osgdb_pic.dll
+.\bin\osgPlugins-3.4.0\osgdb_ply.dll
+.\bin\osgPlugins-3.4.0\osgdb_png.dll
+.\bin\osgPlugins-3.4.0\osgdb_pnm.dll
+.\bin\osgPlugins-3.4.0\osgdb_pov.dll
+.\bin\osgPlugins-3.4.0\osgdb_pvr.dll
+.\bin\osgPlugins-3.4.0\osgdb_revisions.dll
+.\bin\osgPlugins-3.4.0\osgdb_rgb.dll
+.\bin\osgPlugins-3.4.0\osgdb_rot.dll
+.\bin\osgPlugins-3.4.0\osgdb_scale.dll
+.\bin\osgPlugins-3.4.0\osgdb_serializers_osg.dll
+.\bin\osgPlugins-3.4.0\osgdb_serializers_osganimation.dll
+.\bin\osgPlugins-3.4.0\osgdb_serializers_osgfx.dll
+.\bin\osgPlugins-3.4.0\osgdb_serializers_osgga.dll
+.\bin\osgPlugins-3.4.0\osgdb_serializers_osgmanipulator.dll
+.\bin\osgPlugins-3.4.0\osgdb_serializers_osgparticle.dll
+.\bin\osgPlugins-3.4.0\osgdb_serializers_osgshadow.dll
+.\bin\osgPlugins-3.4.0\osgdb_serializers_osgsim.dll
+.\bin\osgPlugins-3.4.0\osgdb_serializers_osgterrain.dll
+.\bin\osgPlugins-3.4.0\osgdb_serializers_osgtext.dll
+.\bin\osgPlugins-3.4.0\osgdb_serializers_osgui.dll
+.\bin\osgPlugins-3.4.0\osgdb_serializers_osgutil.dll
+.\bin\osgPlugins-3.4.0\osgdb_serializers_osgviewer.dll
+.\bin\osgPlugins-3.4.0\osgdb_serializers_osgvolume.dll
+.\bin\osgPlugins-3.4.0\osgdb_shp.dll
+.\bin\osgPlugins-3.4.0\osgdb_stl.dll
+.\bin\osgPlugins-3.4.0\osgdb_tf.dll
+.\bin\osgPlugins-3.4.0\osgdb_tga.dll
+.\bin\osgPlugins-3.4.0\osgdb_tgz.dll
+.\bin\osgPlugins-3.4.0\osgdb_trans.dll
+.\bin\osgPlugins-3.4.0\osgdb_trk.dll
+.\bin\osgPlugins-3.4.0\osgdb_txf.dll
+.\bin\osgPlugins-3.4.0\osgdb_txp.dll
+.\bin\osgPlugins-3.4.0\osgdb_vtf.dll
+.\bin\osgPlugins-3.4.0\osgdb_x.dll
+177 File(s) copied

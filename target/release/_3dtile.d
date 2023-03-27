@@ -1,0 +1,1 @@
+C:\Users\SHONDIM\Desktop\ToolFor3dTiles\3dtiles\target\release\_3dtile.exe: C:\Users\SHONDIM\Desktop\ToolFor3dTiles\3dtiles\build.rs C:\Users\SHONDIM\Desktop\ToolFor3dTiles\3dtiles\src\fun_c.rs C:\Users\SHONDIM\Desktop\ToolFor3dTiles\3dtiles\src\main.rs C:\Users\SHONDIM\Desktop\ToolFor3dTiles\3dtiles\src\osgb.rs C:\Users\SHONDIM\Desktop\ToolFor3dTiles\3dtiles\src\shape.rs
